@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+echo placeholder > staging/.gitkeep
+echo placeholder > production/.gitkeep
