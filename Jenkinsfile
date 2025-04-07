@@ -4,6 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                script {
+                    echo "Running on branch: ${env.BRANCH_NAME}"
+                }
                 bat 'build.bat'
             }
         }
